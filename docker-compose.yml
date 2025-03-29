@@ -1,12 +1,13 @@
 version: '3.1'
 # docker compose -f stack.yml up
 # docker compose up
+# docker compose up -d --build
 # Tomado de https://hub.docker.com/_/ghost (Production mode .. via docker-compose)
 
 services:
 
   ghost:
-    image: ghost:5-debian
+    image: ghost:5-alpine
     restart: always
     ports:
       - 8080:2368
