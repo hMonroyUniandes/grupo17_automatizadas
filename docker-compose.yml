@@ -1,5 +1,7 @@
 version: '3.1'
 # docker compose -f stack.yml up
+# docker compose up
+# Tomado de https://hub.docker.com/_/ghost (Production mode .. via docker-compose)
 
 services:
 
